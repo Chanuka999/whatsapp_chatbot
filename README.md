@@ -37,6 +37,16 @@ whatsapp_bot/
 └── README.md                       # Project documentation (this file)
 ```
 
+## Sample .env
+
+```
+WHATAPP_CHALLENGE_KEY=sample_challenge_key
+WHATSAPP_PHONE_NUMBER_ID=1234567890
+WHATSAPP_API_KEY=sample_whatsapp_api_key
+WHATSAPP_API_VERSION=v17.0
+OPENAI_API_KEY=sample_openai_api_key
+```
+
 ## Setup & Installation
 
 1. **Clone the repository:**
@@ -54,15 +64,7 @@ whatsapp_bot/
 
 3. **Configure environment variables:**
 
-   - Copy `.env.example` to `.env` and fill in your WhatsApp and OpenAI API keys.
-   - Example variables:
-     ```env
-     WHATAPP_CHALLENGE_KEY=your_whatsapp_challenge_key
-     WHATSAPP_PHONE_NUMBER_ID=your_phone_number_id
-     WHATSAPP_API_KEY=your_whatsapp_api_key
-     WHATSAPP_API_VERSION=vXX.X
-     OPENAI_API_KEY=your_openai_api_key
-     ```
+   - Copy the sample above to your `.env` file and fill in your WhatsApp and OpenAI API keys.
 
 4. **Run the application:**
 
